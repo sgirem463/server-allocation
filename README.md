@@ -1,7 +1,7 @@
 # Server Allocation
-Server name allocation service
+Server name allocation service<br>
 There can be many different server types, e.g. database, web, api,
-A server name is server type + id, e.g. web1, database23, api32
+A server name is server type + id, e.g. web1, web2, database23, api32
 each allocation should return name with the lowest avaliable id, starting from 1
 
 The service supports deallocation when a server is no longer needed, its id should
